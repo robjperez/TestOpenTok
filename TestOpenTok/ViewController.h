@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Opentok/Opentok.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<OTPublisherDelegate, OTSessionDelegate, OTSubscriberDelegate>
 
 @end

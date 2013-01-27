@@ -18,6 +18,25 @@
 		62101FA516B5EF2A001158A0 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62101FA416B5EF2A001158A0 /* Default-568h@2x.png */; };
 		62101FA816B5EF2A001158A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 62101FA716B5EF2A001158A0 /* ViewController.m */; };
 		62101FAB16B5EF2A001158A0 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 62101FA916B5EF2A001158A0 /* ViewController.xib */; };
+		62101FDA16B5EF60001158A0 /* opentok.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 62101FD916B5EF60001158A0 /* opentok.bundle */; };
+		62101FEC16B5EFCB001158A0 /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FDB16B5EFCB001158A0 /* CoreTelephony.framework */; };
+		62101FED16B5EFCB001158A0 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FDC16B5EFCB001158A0 /* MobileCoreServices.framework */; };
+		62101FEE16B5EFCB001158A0 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FDD16B5EFCB001158A0 /* CFNetwork.framework */; };
+		62101FEF16B5EFCB001158A0 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FDE16B5EFCB001158A0 /* SystemConfiguration.framework */; };
+		62101FF016B5EFCB001158A0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FDF16B5EFCB001158A0 /* CoreMedia.framework */; };
+		62101FF116B5EFCB001158A0 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE016B5EFCB001158A0 /* Security.framework */; };
+		62101FF216B5EFCB001158A0 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE116B5EFCB001158A0 /* AudioToolbox.framework */; };
+		62101FF316B5EFCB001158A0 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE216B5EFCB001158A0 /* CoreAudio.framework */; };
+		62101FF416B5EFCB001158A0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE316B5EFCB001158A0 /* CoreVideo.framework */; };
+		62101FF516B5EFCB001158A0 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE416B5EFCB001158A0 /* OpenGLES.framework */; };
+		62101FF616B5EFCB001158A0 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE516B5EFCB001158A0 /* libz.dylib */; };
+		62101FF716B5EFCB001158A0 /* libstdc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE616B5EFCB001158A0 /* libstdc++.dylib */; };
+		62101FF816B5EFCB001158A0 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE716B5EFCB001158A0 /* QuartzCore.framework */; };
+		62101FF916B5EFCB001158A0 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE816B5EFCB001158A0 /* AVFoundation.framework */; };
+		62101FFA16B5EFCB001158A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FE916B5EFCB001158A0 /* UIKit.framework */; };
+		62101FFB16B5EFCB001158A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FEA16B5EFCB001158A0 /* Foundation.framework */; };
+		62101FFC16B5EFCB001158A0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FEB16B5EFCB001158A0 /* CoreGraphics.framework */; };
+		6210200016B5EFFC001158A0 /* Opentok.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 62101FFF16B5EFFC001158A0 /* Opentok.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +56,25 @@
 		62101FA616B5EF2A001158A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		62101FA716B5EF2A001158A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		62101FAA16B5EF2A001158A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		62101FD916B5EF60001158A0 /* opentok.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = opentok.bundle; sourceTree = "<group>"; };
+		62101FDB16B5EFCB001158A0 /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		62101FDC16B5EFCB001158A0 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		62101FDD16B5EFCB001158A0 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		62101FDE16B5EFCB001158A0 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		62101FDF16B5EFCB001158A0 /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		62101FE016B5EFCB001158A0 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		62101FE116B5EFCB001158A0 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		62101FE216B5EFCB001158A0 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
+		62101FE316B5EFCB001158A0 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		62101FE416B5EFCB001158A0 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		62101FE516B5EFCB001158A0 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		62101FE616B5EFCB001158A0 /* libstdc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.dylib"; path = "usr/lib/libstdc++.dylib"; sourceTree = SDKROOT; };
+		62101FE716B5EFCB001158A0 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		62101FE816B5EFCB001158A0 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		62101FE916B5EFCB001158A0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		62101FEA16B5EFCB001158A0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		62101FEB16B5EFCB001158A0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		62101FFF16B5EFFC001158A0 /* Opentok.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Opentok.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +85,24 @@
 				62101F8F16B5EF2A001158A0 /* UIKit.framework in Frameworks */,
 				62101F9116B5EF2A001158A0 /* Foundation.framework in Frameworks */,
 				62101F9316B5EF2A001158A0 /* CoreGraphics.framework in Frameworks */,
+				62101FEC16B5EFCB001158A0 /* CoreTelephony.framework in Frameworks */,
+				62101FED16B5EFCB001158A0 /* MobileCoreServices.framework in Frameworks */,
+				62101FEE16B5EFCB001158A0 /* CFNetwork.framework in Frameworks */,
+				62101FEF16B5EFCB001158A0 /* SystemConfiguration.framework in Frameworks */,
+				62101FF016B5EFCB001158A0 /* CoreMedia.framework in Frameworks */,
+				62101FF116B5EFCB001158A0 /* Security.framework in Frameworks */,
+				62101FF216B5EFCB001158A0 /* AudioToolbox.framework in Frameworks */,
+				62101FF316B5EFCB001158A0 /* CoreAudio.framework in Frameworks */,
+				62101FF416B5EFCB001158A0 /* CoreVideo.framework in Frameworks */,
+				62101FF516B5EFCB001158A0 /* OpenGLES.framework in Frameworks */,
+				62101FF616B5EFCB001158A0 /* libz.dylib in Frameworks */,
+				62101FF716B5EFCB001158A0 /* libstdc++.dylib in Frameworks */,
+				62101FF816B5EFCB001158A0 /* QuartzCore.framework in Frameworks */,
+				62101FF916B5EFCB001158A0 /* AVFoundation.framework in Frameworks */,
+				62101FFA16B5EFCB001158A0 /* UIKit.framework in Frameworks */,
+				62101FFB16B5EFCB001158A0 /* Foundation.framework in Frameworks */,
+				62101FFC16B5EFCB001158A0 /* CoreGraphics.framework in Frameworks */,
+				6210200016B5EFFC001158A0 /* Opentok.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -73,6 +129,24 @@
 		62101F8D16B5EF2A001158A0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				62101FFF16B5EFFC001158A0 /* Opentok.framework */,
+				62101FDB16B5EFCB001158A0 /* CoreTelephony.framework */,
+				62101FDC16B5EFCB001158A0 /* MobileCoreServices.framework */,
+				62101FDD16B5EFCB001158A0 /* CFNetwork.framework */,
+				62101FDE16B5EFCB001158A0 /* SystemConfiguration.framework */,
+				62101FDF16B5EFCB001158A0 /* CoreMedia.framework */,
+				62101FE016B5EFCB001158A0 /* Security.framework */,
+				62101FE116B5EFCB001158A0 /* AudioToolbox.framework */,
+				62101FE216B5EFCB001158A0 /* CoreAudio.framework */,
+				62101FE316B5EFCB001158A0 /* CoreVideo.framework */,
+				62101FE416B5EFCB001158A0 /* OpenGLES.framework */,
+				62101FE516B5EFCB001158A0 /* libz.dylib */,
+				62101FE616B5EFCB001158A0 /* libstdc++.dylib */,
+				62101FE716B5EFCB001158A0 /* QuartzCore.framework */,
+				62101FE816B5EFCB001158A0 /* AVFoundation.framework */,
+				62101FE916B5EFCB001158A0 /* UIKit.framework */,
+				62101FEA16B5EFCB001158A0 /* Foundation.framework */,
+				62101FEB16B5EFCB001158A0 /* CoreGraphics.framework */,
 				62101F8E16B5EF2A001158A0 /* UIKit.framework */,
 				62101F9016B5EF2A001158A0 /* Foundation.framework */,
 				62101F9216B5EF2A001158A0 /* CoreGraphics.framework */,
@@ -88,6 +162,7 @@
 				62101FA616B5EF2A001158A0 /* ViewController.h */,
 				62101FA716B5EF2A001158A0 /* ViewController.m */,
 				62101FA916B5EF2A001158A0 /* ViewController.xib */,
+				62101FD916B5EF60001158A0 /* opentok.bundle */,
 				62101F9516B5EF2A001158A0 /* Supporting Files */,
 			);
 			path = TestOpenTok;
@@ -163,6 +238,7 @@
 				62101FA316B5EF2A001158A0 /* Default@2x.png in Resources */,
 				62101FA516B5EF2A001158A0 /* Default-568h@2x.png in Resources */,
 				62101FAB16B5EF2A001158A0 /* ViewController.xib in Resources */,
+				62101FDA16B5EF60001158A0 /* opentok.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,6 +330,10 @@
 		62101FAF16B5EF2A001158A0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOpenTok/TestOpenTok-Prefix.pch";
 				INFOPLIST_FILE = "TestOpenTok/TestOpenTok-Info.plist";
@@ -265,6 +345,10 @@
 		62101FB016B5EF2A001158A0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "TestOpenTok/TestOpenTok-Prefix.pch";
 				INFOPLIST_FILE = "TestOpenTok/TestOpenTok-Info.plist";
